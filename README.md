@@ -18,12 +18,7 @@ This repository is still in progress. Over the next few months leading up to Des
 
 The following explains the orginization of this repository. I reccommend first running some testbenches from the "code" directory to get an idea of how they work. Feel free to use and modify the modules to suit your own purposes. The vivado and vitis directories are included to provide an example of how I set up this platform on a ZCU102 board and run simulations. Feel free to use this as a reference, however modifications will be necessary to run this on different hardware. 
 
-- /publications: publications based off the FPGA platform 
-  - MASc Thesis
-  - MWSCAS 2024 conference paper
-  - TCAS-II Journal paper (upcoming)
-  - DesignCon 2025 paper (upcoming)
-      
+     
 - /code: contains the library modules for modelling wireline systems with FEC on the FPGA platform
     - /library: verilog modules for wireline system modelling
       - /top_level: 9 top-level verilog files defining different wireline systems, all with RS-KP4 FEC:
